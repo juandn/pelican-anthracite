@@ -1,10 +1,11 @@
-# Pelican-Blue
+# Pelican-Antracite
 
 Responsive theme for [Pelican](http://blog.getpelican.com/) Static Site Generator, Powered by [Python](https://www.python.org/) Programming language.
+Fork from Parbhat Puri [Pelican-anthracite](https://github.com/Parbhat/pelican-anthracite/tree/master)
 
 ## Demo
 
-You can see the theme in action at https://parbhatpuri.com
+You can see the theme in action at https://juandn.github.io/juandn-blog/
 
 ### Screenshots
 
@@ -18,7 +19,7 @@ You can see the theme in action at https://parbhatpuri.com
 ## Features
 
 * Responsive (Mobile Friendly Test on [Google](https://www.google.com/webmasters/tools/mobile-friendly/?url=https%3A%2F%2Fparbhatpuri.com%2F))
-* Fast (Load time tested on [Pingdom](http://tools.pingdom.com/fpt/#!/bT0Pry/https://parbhatpuri.com/): 540ms)
+* Fast (Load time tested on [Pingdom](https://tools.pingdom.com/#616219e1cb800000): 611ms)
 * Syntax highlighting for code blocks
 * [Disqus](https://disqus.com/) for Comments
 * Google Analytics
@@ -27,24 +28,24 @@ You can see the theme in action at https://parbhatpuri.com
 
 ## Installation
 
-You can install Pelican-Blue theme to your earlier Pelican project or create a new project from the Pelican [Quickstart](http://docs.getpelican.com/en/3.6.3/quickstart.html) guide.
+You can install Pelican-Anthracite theme to your earlier Pelican project or create a new project from the Pelican [Quickstart](http://docs.getpelican.com/en/3.6.3/quickstart.html) guide.
 
 * Clone the repository
 
 ```
-$ git clone https://github.com/Parbhat/pelican-blue.git
+$ git clone https://github.com/juandn/pelican-anthracite.git
 ```
 
-* Create a `THEME` variable in your `pelicanconf.py` file and set its value to the location of pelican-blue theme.
+* Create a `THEME` variable in your `pelicanconf.py` file and set its value to the location of pelican-anthracite theme.
 
 ```python
-THEME = 'path-to-pelican-blue-theme'
+THEME = 'path-to-pelican-anthracite-theme'
 ```
 
-If you have placed the `pelican-blue` theme inside your project's pelican-themes folder, change the `THEME` variable in `pelicanconf.py` to
+If you have placed the `pelican-anthracite` theme inside your project's pelican-themes folder, change the `THEME` variable in `pelicanconf.py` to
 
 ```python
-THEME = 'pelican-themes/pelican-blue'
+THEME = 'pelican-themes/pelican-anthracite'
 ```
 
 * Add the following code to your `pelicanconf.py` file to display the social icons.
@@ -56,7 +57,7 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/username'),
           )
 ```
 
-* That's it! You have installed `pelican-blue`. To see the Theme in action run the devserver
+* That's it! You have installed `pelican-anthracite`. To see the Theme in action run the devserver
 
 ```
 make devserver
@@ -68,7 +69,7 @@ make devserver
 
 ### pelicanconf.py
 
-Pelican-Blue theme use the following settings. You can add the following to your `pelicanconf.py` to get the site shown in the screenshots.
+Pelican-anthracite theme use the following settings. You can add the following to your `pelicanconf.py` to get the site shown in the screenshots.
 
 ```python
 SIDEBAR_DIGEST = 'Programmer and Web Developer'
@@ -107,4 +108,4 @@ For more information on publishing your site, read the publishing [docs](http://
 
 ## Contributing
 
-Your contributions are welcome to improve the `pelican-blue` theme.
+Your contributions are welcome to improve the `pelican-anthracite` theme.

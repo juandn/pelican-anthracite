@@ -66,7 +66,7 @@ body > article, footer {
   padding: 20px 80px 10px;
 }
 
-article ol.posts
+article ol
 {
   padding-left: 0;
 }
@@ -107,8 +107,7 @@ a:hover { text-decoration: underline; }
 /* Code */
 .highlight pre {
   font-size: 14px;
-  overflow: auto;
-  padding: 8px;
+  overflow: scroll;
 }
 
 /* Sidebar */
@@ -118,12 +117,17 @@ aside {
   position: fixed;
   top: 0; left: 0;
   padding: 30px;
-  background-color: #2980b9;
+  background-color: #383E42;
   color: white;
   box-shadow: 0 0 3px black;
   text-align: center;
   padding-top: 8%;
   background-size: cover;
+}
+
+#avatar-box{
+  display: inline-block
+
 }
 
 aside > ul {
@@ -142,7 +146,7 @@ aside > h2 {
   border-radius: 50%;
   display: block;
   margin: 0 10px 20px 0;
-  box-shadow: 0px 0px 5px 3px #1DAEDF;
+  box-shadow: 0px 0px 5px 3px #9C9FA1;
   -webkit-transition: 200ms;
      -moz-transition: 200ms;
       -ms-transition: 200ms;
@@ -162,16 +166,16 @@ aside > h2 {
 
 .nav
 {
-  display: block;
+  display: inline;
   margin-left: -30px;
   margin-right: -30px;
-  border: 1px solid #328cc7;
+  border-bottom: 1px solid #C7C1BD;
   margin-top: 40px;
 }
 
 .nav > ul > li
 {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .nav a
@@ -183,7 +187,7 @@ aside > h2 {
 
 .nav a:hover
 {
-    background-color: #328cc7;
+    background-color: #74787B;
 }
 
 .list-bare
@@ -197,16 +201,8 @@ aside > h2 {
 {
   display: block;
   padding: 0.77273rem 0;
-  border-bottom: 1px solid #328cc7;
+  border-bottom: 1px solid #C7C1BD;
 }
-
-
-.blog_roll_link 
-{
-  display: block;
-  padding: 0.33147rem 0;
-  border-bottom: 3px solid #328cc7;
-} 
 
 
 /*--------Responsive------------*/
