@@ -1,7 +1,7 @@
 # Pelican-Antracite
 
 Responsive theme for [Pelican](http://blog.getpelican.com/) Static Site Generator, Powered by [Python](https://www.python.org/) Programming language.
-Fork from Parbhat Puri [Pelican-anthracite](https://github.com/Parbhat/pelican-anthracite/tree/master)
+Fork from Parbhat Puri [Pelican-blue](https://github.com/Parbhat/pelican-anthracite/tree/master)
 
 ## Demo
 
